@@ -1,0 +1,73 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: medium;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(37, 36, 36);
+}
+.navbar-text {
+    font-weight: 700;
+}
+ul {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+li {   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    margin: 15px;
+    font-size: 20px;
+}
+a {
+    color: rgb(193, 196, 199);
+    text-decoration: none;
+}
+input {
+    height: 30px;
+}
+button {
+    height: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: medium;
+    color: green;
+    background-color: transparent;
+    border: 1px solid green;
+}
+button:hover {
+    background-color:green ;
+    color: aliceblue;
+
+}
+.hamburger-menu {
+    display: none;
+    height: 30px;
+    width: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    margin: 15px;
+    font-size: 20px;
+
+}
+
+@media screen and (max-width: 768px){
+    .navbar-links > li {
+        display: none;
+    }
+    .hamburger-menu {
+        display: flex;
+    }
+}
